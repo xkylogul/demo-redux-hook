@@ -11,7 +11,7 @@ class TestBtn1 extends PureComponent{
     return <h2>testbtn2</h2>
 } */
 const TestBtn2 = forwardRef((props,ref)=>{
-    return <h2 ref={ref}>这是一盒替代饭</h2>
+    return <h2 ref={ref}>这是一caicaikan代饭</h2>
 })
 
 export default function HookRef() {

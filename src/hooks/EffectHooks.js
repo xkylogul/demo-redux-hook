@@ -1,6 +1,6 @@
 import { action } from 'commander'
 import React,{useState,useEffect,useContext,useReducer} from 'react'
-//useEffect()相当于componentWillUnMount()和componentDidMount()结合
+//useEffect()相当于componentWillUnMount()和componentDidMount()组合钩子函数
 import { UserContext,NameContext } from '../App'
 
 function reducer(state,action){
